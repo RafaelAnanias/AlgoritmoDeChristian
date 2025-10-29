@@ -14,7 +14,7 @@ class RelogioLocal:
     def __init__(self):
         # 'offset' é a diferença de tempo simulada do nosso relógio
         # para o relógio real do sistema.
-        # Vamos simular que nosso relógio está 20 segundos adiantado.
+        # Vamos simular que relógio está 20 segundos adiantado.
         self._offset = 20.0  
 
     def get_tempo_local(self):
